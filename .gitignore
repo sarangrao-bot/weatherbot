@@ -4,6 +4,8 @@ dist/
 coverage/
 .wrangler/
 .dev.vars
+bun.lock
+bun.lockb
 .DS_Store
 *.log
 .env*
