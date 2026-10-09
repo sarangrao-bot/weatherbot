@@ -23,3 +23,17 @@ npm run dev
 # Build for production
 npm run build
 ```
+
+## Deploying to Cloudflare Workers
+
+This repository is pre-configured for **Cloudflare Workers** (`wrangler.jsonc` + `src/worker.ts` + static assets in `./dist`).
+
+### Automatic GitHub Deployment (Cloudflare Dashboard)
+- **Build command**: `npm run build`
+- **Deploy command**: `npx wrangler deploy` (or `npm run deploy`)
+- **Build output directory**: `dist`
+
+### Manual CLI Deployment
+```bash
+npm run deploy
+```
